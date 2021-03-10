@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    padding-top: 800px;
+}
+img{
+    width: 450px;
+    border: solid;
+    transition: transform .2s;
+    
+}
+#bio{
+    padding: 50px;
+    font-size: 50px;
+}
+p{
+    max-width: 450px;
+    margin: 25px;
+    font-size: 17px;
+    line-height: 1.3;
+}
+.line{
+    height: 6px;
+    background-color: azure;
+    width: 70px;
+    margin: 8px auto;
+}
+#apps{
+    width: 100%;
+    height: 800px;
+    background-color: coral;
+}
+#games{
+    width: 100%;
+    height: 800px;
+    background-color: coral;
+}
+img:hover{
+    transform: scale(0.9);
+}
+#chatbot{
+    width: 100%;
+    height: 800px;
+    background-color: coral;
+}
